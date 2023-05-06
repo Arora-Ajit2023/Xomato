@@ -1,0 +1,81 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+.headerLeft {
+  display: flex;
+  align-items: center;
+  width: 75%;
+  gap: 1.5rem;
+}
+
+.headerLeft h1 {
+  font-size: 2rem;
+  font-style: oblique;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.search {
+  border: 1px solid silver;
+  width: 90%;
+  padding: 15px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 5px silver;
+}
+
+.search input,
+.search select {
+  outline: none;
+  border: 0;
+}
+
+.search select {
+  width: 35%;
+  color: #888383;
+  border-right: 1px solid silver;
+  padding: 0.2rem 1rem 0.2rem 1rem;
+  font-size: 0.9rem;
+}
+
+.search input {
+  width: 65%;
+  color: #888383;
+}
+
+::placeholder {
+  font-size: 0.9rem;
+}
+
+.input {
+  margin-left: 0.8rem;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 0.8rem;
+}
+
+.HeaderRight {
+  width: 25%;
+  display: flex;
+  justify-content: end;
+  gap: 1.8rem;
+}
+
+.HeaderRight button {
+  border: 0;
+  background-color: transparent;
+  font-size: 1.2rem;
+  color: #888383;
+}
+
+.HeaderRight button:hover {
+  cursor: pointer;
+}

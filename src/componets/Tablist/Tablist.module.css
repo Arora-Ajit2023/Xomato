@@ -1,0 +1,45 @@
+.tab_section {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 0.8rem;
+  padding: 1rem 0 0 0;
+  display: flex;
+  align-items: center;
+}
+
+.tab_elemets {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 0 1.2rem;
+  border-bottom: 3px solid transparent;
+  padding-bottom: 10px;
+}
+
+/* for Selected tab */
+.tab_elemets:hover {
+  border-bottom: 3px solid rgb(255, 126, 139);
+}
+
+.tab_imageContainer {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #f1f1f1;
+  padding: 0.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  width: 60%;
+  height: 60%;
+  object-fit: contain;
+}
+
+.tag_heading {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #888383;
+}
