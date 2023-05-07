@@ -1,0 +1,24 @@
+.foodCate {
+  background-color: #f8f8f8;
+  padding: 1.5rem 0;
+}
+
+.foodContainer {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  overflow: hidden;
+  gap: 0.8rem;
+}
+
+.image_container {
+  width: 500px;
+  border-radius: 500px;
+  height: 150px;
+}
+
+.image_container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}

@@ -1,5 +1,7 @@
 .filter_section {
-  position: relative;
+  position: sticky;
+  margin: 0.5rem 0 0.8rem 0;
+  top: 15px;
 }
 
 .filter {
@@ -8,8 +10,6 @@
   align-items: center;
   margin: 0 auto;
   gap: 1rem;
-  position: sticky;
-  top: 15px;
 }
 
 .filter > div {
