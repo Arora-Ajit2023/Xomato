@@ -1,0 +1,28 @@
+[
+  {
+    "id": 0,
+    "image": "https://b.zmtcdn.com/data/pictures/3/38083/3d6c960a411dedf5c050484aa70bc737_o2_featured_v2.jpg?output-format=webp",
+    "name": "Sahara Restaurant",
+    "variety": "North Indian, Mughlai, Chinese, Biryani",
+    "rating": 3.5,
+    "price": 250,
+    "oderDelivered": 4650,
+    "offer": "50%",
+    "time": "36 min",
+    "isPromoted": true,
+    "isExta": false
+  },
+  {
+    "id": 1,
+    "image": "https://b.zmtcdn.com/data/pictures/chains/3/32223/5114b993bf0c7a78101fe7e85305b000_o2_featured_v2.jpg?output-format=webp",
+    "name": "Ramashraya",
+    "variety": "South Indian, Beverages",
+    "rating": 4.2,
+    "price": 250,
+    "oderDelivered": 7125,
+    "offer": "50%",
+    "time": "24 min",
+    "isExta": false,
+    "isPromoted": false
+  }
+]

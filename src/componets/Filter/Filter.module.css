@@ -1,7 +1,9 @@
 .filter_section {
   position: sticky;
-  margin: 0.5rem 0 0.8rem 0;
-  top: 15px;
+  top: 0px;
+  background-color: #ffffff;
+  z-index: 100;
+  padding: 1rem 0;
 }
 
 .filter {
