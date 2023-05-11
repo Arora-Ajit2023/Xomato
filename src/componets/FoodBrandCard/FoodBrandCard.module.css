@@ -1,9 +1,9 @@
 .image_container {
-  width: 150px;
-  height: 150px;
+  width: 140px;
+  height: 140px;
   object-fit: cover;
   padding: 1.2rem;
-  box-shadow: 0 0 4px silver;
+  box-shadow: 0 0 6px silver;
   border-radius: 50%;
 }
 

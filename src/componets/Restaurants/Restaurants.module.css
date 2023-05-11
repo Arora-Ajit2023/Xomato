@@ -1,0 +1,9 @@
+.restoMain_container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.restoCard_Heading {
+  font-size: 1.8rem;
+  font-weight: 500;
+}

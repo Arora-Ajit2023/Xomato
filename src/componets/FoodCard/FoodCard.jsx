@@ -7,7 +7,7 @@ import Styles from './FoodCard.module.css';
 const FoodCard = ({ image, name }) => {
   return (
     <>
-      <img src={image} alt='image' />
+      <img src={image} alt='image' className={Styles.foodimage} />
       <p className={Styles.foodHeading}>{name}</p>
     </>
   );
