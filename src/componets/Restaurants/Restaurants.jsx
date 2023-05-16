@@ -12,24 +12,26 @@ const Restaurants = () => {
         <p className={Styles.restoCard_Heading}>
           Delivery Restaurants in Mumbai
         </p>
-        {restaurantsData.map((restroData) => {
-          return (
-            <>
-              <RestaurantsCard
-                key={restroData.id}
-                image={restroData.image}
-                name={restroData.name}
-                offer={restroData.offer}
-                rating={restroData.offer}
-                isExta={restroData.isExta}
-                isPromoted={restroData.isPromoted}
-                oderDelivered={restroData.oderDelivered}
-                variety={restroData.variety}
-                time={restroData.time}
-              />
-            </>
-          );
-        })}
+        <div className={Styles.restroCard_container}>
+          {restaurantsData.map((restroData) => {
+            return (
+              <div key={restroData.id} className={Styles.card_CardContainer}>
+                <RestaurantsCard
+                  image={restroData.image}
+                  name={restroData.name}
+                  offer={restroData.offer}
+                  rating={restroData.rating}
+                  isExta={restroData.isExta}
+                  isPromoted={restroData.isPromoted}
+                  orderDelivered={restroData.orderDelivered}
+                  variety={restroData.variety}
+                  time={restroData.time}
+                  price={restroData.price}
+                />
+              </div>
+            );
+          })}
+        </div>
       </div>
     </section>
   );

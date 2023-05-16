@@ -7,3 +7,25 @@
   font-size: 1.8rem;
   font-weight: 500;
 }
+
+.restroCard_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 2rem 0;
+  justify-content: space-between;
+}
+
+.card_CardContainer {
+  width: 345px;
+  border: 1px solid transparent;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  border-radius: 16px;
+}
+
+.card_CardContainer:hover {
+  border: 1px solid transparent;
+  box-shadow: 0 0 2px silver;
+}
