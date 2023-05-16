@@ -1,0 +1,79 @@
+.footer1 {
+  width: 70%;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.footer1_heading {
+  font-weight: 500;
+  font-size: 2rem;
+  margin: 0px 0px 2rem;
+}
+
+.footer1_container {
+  width: 100%;
+  border: 1px solid silver;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 1.2rem;
+}
+
+.footer1_options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.4rem 2.1rem;
+}
+
+.optionHading p {
+  color: #1c1c1c;
+  font-size: 1.2rem;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.details {
+  padding: 1rem 2.4rem 1rem;
+  max-height: 1000rem;
+  color: rgb(105, 105, 105);
+  opacity: 1;
+  transition: max-height 0.25s ease-in-out 0s, opacity 0.5s linear 0.25s;
+}
+
+.links {
+  text-decoration: none;
+  color: rgb(130, 130, 130);
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-right: 0.5rem;
+}
+
+.links:hover {
+  color: #363636;
+}
+
+.dot {
+  display: inline-block;
+  width: 0.3rem;
+  height: 0.3rem;
+  background: rgb(130, 130, 130);
+  border-radius: 50%;
+  margin-right: 0.5rem;
+  margin-bottom: 0.1rem;
+}
+
+.restro_name {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.new_links {
+  width: 18%;
+  text-decoration: none;
+  color: rgb(130, 130, 130);
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-right: 0.4rem;
+  margin-bottom: 0.8rem;
+}

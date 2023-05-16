@@ -7,6 +7,7 @@ import './App.css';
 import FoodCategory from './componets/FoodCategory/FoodCategory';
 import FoodBrand from './componets/FoodBrand/FoodBrand';
 import Restaurants from './componets/Restaurants/Restaurants';
+import Footer from './componets/Footer/Footer';
 function App() {
   return (
     <div>
@@ -16,6 +17,7 @@ function App() {
       <FoodCategory />
       <FoodBrand />
       <Restaurants />
+      <Footer />
     </div>
   );
 }

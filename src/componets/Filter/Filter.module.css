@@ -1,6 +1,6 @@
 .filter_section {
   position: sticky;
-  top: 0px;
+  top: -1px;
   background-color: #ffffff;
   z-index: 100;
   padding: 1rem 0;
