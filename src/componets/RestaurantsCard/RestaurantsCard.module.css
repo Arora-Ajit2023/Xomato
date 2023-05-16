@@ -192,12 +192,10 @@
   color: white;
   margin-right: 0.4rem;
   border-radius: 6px;
-  padding: 0.2rem 0.3rem;
+  padding: 0.2rem 0.5rem;
   font-size: 0.9rem;
-  font-size: 0.8rem;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: baseline;
 }
 
 .varityContainer {
