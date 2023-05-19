@@ -10,7 +10,7 @@ import Restaurants from './componets/Restaurants/Restaurants';
 import Footer from './componets/Footer/Footer';
 function App() {
   return (
-    <div>
+    <div style={{ margin: '0 auto ', width: '70%' }}>
       <Header />
       <Tablist />
       <Filter />
